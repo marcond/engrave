@@ -23,12 +23,6 @@ public class STK500 implements Programmer
     {
         return (PROTOCOL_NAME.toLowerCase ());
     }
-
-    static
-    {
-        System.out.println ("*** Running ***");
-        Registry.register (Programmer.class);
-    }
 }
 
 /*
